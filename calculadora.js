@@ -2,19 +2,19 @@
 
 var params = process.argv.slice(2);
 
-var numero1 = parseFloat(params[1]);
-var numero2 = parseFloat(params[2]);
+var number1 = parseFloat(params[1]);
+var number2 = parseFloat(params[2]);
 
 //console.log(numero1);
 //console.log(numero2);
 
-var plantilla = `
-La suma es: ${numero1 + numero2}
-La resta es: ${numero1 - numero2}
-La multiplicacion es: ${numero1 * numero2}
-La division es: ${numero1 / numero2}
+var template = `
+  The sum is: ${number1 + number2}
+  The subtraction is: ${number1 - number2}
+  The multiplication is: ${number1 * number2}
+  The division is: ${number1 / number2}
 `;
 
-console.log(plantilla);
+console.log(template);
 
-console.log("Hola mundo con nodejs");
+console.log("Hello world with nodejs");

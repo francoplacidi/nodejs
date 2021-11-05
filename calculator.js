@@ -5,8 +5,8 @@ var params = process.argv.slice(2);
 var number1 = parseFloat(params[1]);
 var number2 = parseFloat(params[2]);
 
-//console.log(numero1);
-//console.log(numero2);
+//console.log(number1);
+//console.log(number2);
 
 var template = `
   The sum is: ${number1 + number2}
